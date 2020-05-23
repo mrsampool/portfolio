@@ -1,0 +1,362 @@
+/* GLOBAL */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0;
+    background-color: cadetblue;
+    /* FONTS */
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0;
+}
+#subt{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+article{
+    margin: 1rem;
+    font-weight: 400;
+}
+hr{
+    width: 30rem;
+    border-top: 0.2rem solid;
+}
+
+
+button{
+    
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    
+    font-family: inherit;
+    font-size: 1.5rem;
+    
+    border-radius: 1rem;
+    border: 0.15rem solid;
+
+    background-color: inherit;
+
+    cursor: pointer;
+    }
+button:hover{
+    transition: all 0.1s;
+}
+
+.white{
+    background-color: aliceblue;
+    color: cadetblue;
+}
+.white:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+.blue{
+    background-color: cadetblue;
+    color: white;
+    border-color: white;
+}
+.blue:hover{
+    transition: all 0.25s;
+    color: cadetblue;
+    background-color: white;
+    border-color: cadetblue;
+
+
+}
+
+.greetings{
+    opacity: 0;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 1em;
+    border-radius: 1em;
+    border: 0.1em solid white;
+    width: fit-content;
+}
+.greetings:hover{
+    cursor: pointer;
+    background-color: white;
+    width: fit-content;
+    color: cadetblue;
+    padding: 1em;
+}
+
+
+/* ----------------------------------- */
+/* OPENER */
+
+.title{
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    color: cadetblue;
+    background-color: white;
+    max-width: fit-content;
+    margin: 10em auto 0 auto;
+    transition: all 0.5s;
+    border: 0.25rem solid white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.title:hover, .title:active{
+    transition: all 0.50s;
+    background-color: cadetblue;
+    color: white;
+}
+#opener{
+    display: inline-flex;
+    height: fit-content;
+    width: 70%;
+    opacity: 0;
+    transition: all 2s;
+}
+.aboutme.blurb{
+    text-align: left;
+    margin: auto;
+}
+#self{
+    margin: auto 1rem;
+
+}
+#self img{
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+    padding: 0;
+    margin: 1rem auto;
+    border: 0.5em solid white;
+    transition: all 2s;
+}
+#mywork{
+    opacity: 0;
+    opacity: 0;
+    margin: 1.5rem auto 1.5rem;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border: 0.1em solid white;
+}
+
+
+/* ----------------------------------- */
+/* RESUME */
+
+.resume.container{
+    display: none;
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 100%;
+    transition: all 1s;
+    /* display: none; */
+}
+.resume.page{
+    background-color: aliceblue;
+    width: 100%;
+    margin: auto;
+    border-top: 0.5rem solid #4d5359;
+}
+.resume.content{
+    padding-top: 2rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    ;
+}
+
+/* SECTION HEADER */
+.sectitle{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.sectitle h2{
+    width: fit-content;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: cadetblue;
+    border-bottom: 0.5rem solid #4d5359;
+}
+
+/* RESUME ENTRIES */
+.proj.window{
+    display: block;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 0.5em;
+
+    background-color: white;
+}
+.proj.topbar{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+/* PROJECT LOGO */
+.logo{
+    max-width: 25rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.logo img{
+    width: 100%;
+}
+
+
+/* PROJECT TEXT */
+.proj.textbox{
+    margin: 2% auto;
+    width: 60%;
+}
+.proj.text{
+    padding: 0.5em;
+
+    color: black;
+    background-color: aliceblue;
+}
+.proj.text h3{
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    margin-left: 1em;
+}
+.proj.text article{
+    line-height: 2em;
+    text-align: justify;
+}
+.proj.text li{
+    text-align: left;
+    line-height: 2em;
+}
+
+/* PROJECT SCREENSHOTS */
+.thumb.box{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.desktop.thumb,.tablet.thumb,.phone.thumb,.video.thumb{
+    padding: 0;
+    border: 0.15rem solid cadetblue;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    margin: 1em 0;
+}
+.desktop.thumb:hover,.tablet.thumb:hover,.phone.thumb:hover,.video.thumb:hover{
+    transition: all 0.25s;
+    box-shadow: 0 2rem 2rem #cce7ff;
+}
+.desktop.thumb{
+    max-width: 500px;
+}
+.tablet.thumb{
+    max-width: 250px;
+}
+.phone.thumb{
+    max-width: 150px;
+}
+.video.thumb{
+    max-width: 640px;
+}
+iframe{
+    width: 640px;
+    height: 360px;
+    margin: 0;
+    border-radius: 1em;
+}
+.desktop.thumb img,.tablet.thumb img,.phone.thumb img{
+    width: 100%;
+    border-bottom: 0.15rem solid cadetblue;
+    border-radius: 1rem;
+}
+figcaption{
+    color: dimgray;
+    padding: 0.5rem;
+}
+
+
+/* SKILLS */
+.skills{
+    width: 80%;
+    color: dimgray;
+    margin: auto;
+}
+.skillslist{
+    margin: auto;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skillbox{
+    margin: 2rem;
+    width: 10rem;
+}
+.skilllogo{
+    width: 4rem;
+}
+.skillbox h3{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+#reach{
+    margin: 3rem auto 0 auto;
+}
+.contact.box{
+    background-color: lightblue;
+    padding: 0.5rem;
+    width: 30rem;
+    margin: 1rem auto 5rem auto;
+    border-radius: 1rem;
+    opacity: 0;
+}
+#contactname{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.contactline{
+    display: inline-flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.contact.icon{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.contact.icon img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+    .proj.topbar{
+        display: block;
+    }
+    .proj.textbox{
+        width: 95%;
+    }
+    .proj.window{
+        width: 100%;
+        border-radius: 0;
+    }
+}
