@@ -40,7 +40,6 @@ mywork.onclick = function(){
         setTimeout(function(){
             resume.style.paddingTop = '0';
         },10)
-        
     },50)
     
 }

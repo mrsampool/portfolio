@@ -121,12 +121,16 @@ button:hover{
     opacity: 0;
 }
 .aboutme.blurb{
-    text-align: left;
+    text-align: center;
     margin: auto;
+    line-height: 1.5rem;
+}
+.aboutme.blurb hr{
+    border-top: 0.2rem;
+    width: 10rem;
 }
 #self{
     margin: auto 1rem;
-
 }
 #self img{
     width: 300px;
