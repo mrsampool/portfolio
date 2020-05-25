@@ -7,35 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="drawing.svg"
-   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
-   id="svg839"
-   version="1.1"
-   viewBox="0 0 79.374999 79.375002"
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="/Users/sampool/Library/Mobile Documents/com~apple~CloudDocs/Media Projects/WebDev/Portfolio/resources/images/phone.png"
+   width="300"
    height="300"
-   width="300">
+   viewBox="0 0 79.374999 79.375002"
+   version="1.1"
+   id="svg839"
+   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
+   sodipodi:docname="drawing.svg">
   <defs
      id="defs833" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="26"
-     inkscape:window-x="0"
-     inkscape:window-height="1054"
-     inkscape:window-width="1920"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="215.35714"
-     inkscape:cx="178.03571"
-     inkscape:zoom="1.4"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="40.53571"
+     inkscape:cy="215.35714"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata836">
     <rdf:RDF>
@@ -44,25 +47,25 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <circle
-       r="36.014568"
-       cy="40.157246"
-       cx="39.221802"
+       style="fill:#aa8800;fill-rule:evenodd;stroke-width:0.264583"
        id="path1490"
-       style="fill:#aa8800;fill-rule:evenodd;stroke-width:0.264583" />
+       cx="39.221802"
+       cy="40.157246"
+       r="36.014568" />
     <path
-       sodipodi:nodetypes="ccscscsscscsscccc"
-       inkscape:connector-curvature="0"
-       id="path1486"
+       style="fill:#ffffff;fill-opacity:0.66129035;stroke:none;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.51612902;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 27.119791,15.969494 5.575149,7.181547 c 0,0 1.6064,2.740328 0.188987,4.724702 -1.41741,1.984375 -2.078868,3.212798 -2.078868,3.212798 0,0 -0.755952,2.55134 0.944941,4.157739 1.700892,1.606397 12.662201,12.567709 12.662201,12.567709 0,0 2.55134,1.984375 5.386163,0 2.834819,-1.984375 4.157736,-3.023812 6.236604,-1.6064 2.078871,1.41741 7.748514,6.614584 7.748514,6.614584 0,0 2.551337,1.889881 0.09449,4.913691 -1.648102,2.028431 -5.008184,4.913688 -5.008184,4.913688 0,0 -3.96875,2.456846 -8.220982,0.566968 C 46.396576,61.326635 33.16741,52.066218 29.009673,47.15253 24.851934,42.23884 17.481399,33.734376 16.819941,31.561011 c 0,0 -4.143977,-6.574033 -0.377977,-10.961308 l 5.291666,-5.102679 c 0,0 3.02381,-2.173363 5.386161,0.47247 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       id="path1486"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscscsscscsscccc" />
   </g>
 </svg>
