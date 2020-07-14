@@ -1,9 +1,25 @@
 const projects = [{
+    Name: 'L&V Rentals',
+    Points: [
+        'React-based web app',
+        'Interactive filters to narrow rental property listings',
+        'Developed all branding & graphics for client',
+        'Produced all still photography',
+        'Responsive design'
+    ],
+    Site: 'http://landvrentals.com/',
+    Logo: 'resources/images/Resume/LVR/lvlogoH.png',
+    Thumbs: {
+        Desktop: 'resources/images/Resume/LVR/LVR-DesktopThumb.png',
+        Tablet: 'resources/images/Resume/LVR/LVR-TabletThumb.png',
+        Phone: 'resources/images/Resume/LVR/LVR-PhoneThumb.png',
+    }
+},{
     Name: 'TX Ranch RV Resort',
     Points: [
         'Word-Press based website',
         'Developed all branding & graphics for client',
-        'Responsive Design'
+        'Responsive design'
     ],
     Site: 'https://txranchresort.com/',
     Logo: 'resources/images/Resume/TXR/TXR-HLogo.png',
@@ -17,7 +33,7 @@ const projects = [{
     Points: [
         'Word-Press based website',
         'Developed all branding & graphics for client',
-        'Responsive Design'
+        'Responsive design'
     ],
     Site: 'https://txrancheventcenter.com/',
     Logo: 'resources/images/Resume/TXEC/TXEC-HLogo.png',
@@ -31,7 +47,7 @@ const projects = [{
     Points: [
         'Word-Press based website',
         'Developed all branding & graphics for client',
-        'Responsive Design'
+        'Responsive design'
     ],
     Site: 'https://www.txrvstorage.com/',
     Logo: 'resources/images/Resume/TXRS/TXRS-HLogo.png',
